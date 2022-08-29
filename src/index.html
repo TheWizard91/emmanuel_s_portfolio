@@ -18,11 +18,11 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Emmanuel Kofi Agyapong | Developer</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
     <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="[Emmanuel Kofi Agyapong] | Developer" />
 
     <link
       rel="stylesheet"
@@ -34,8 +34,6 @@
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
 
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
@@ -46,9 +44,9 @@
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main"> Emmanuel </span>
           <br />
-          I'm the Unknown Developer.
+          Fullstack ReactJS/Python and JavaScript Developer.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -71,7 +69,7 @@
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
+                src="assets/profile_image.jpg"
                 alt="Profile Image"
               />
             </div>
@@ -79,11 +77,14 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
+                I graduated from Lehman H. College at CUNY with a Bachelors
+                of Science in Computer Science. I have experience with Python, JavaScript, Java, R, and SQL
+                programming. While I am experienced with Python data science and machine learning libraries
+                like Pandas and Scikit, Learn and web frameworks like Django, Django REST, R, React.js, and
+                Dash. However, I'm especially interested in web development.
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                I also, loved hiking and photography.
               </p>
               <span class="d-flex mt-3">
                 <a
@@ -112,21 +113,29 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Telco-Churn AI Project</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Thoroughly analyzed data from here and found the mean, median,
+                    variance, and standard deviation using Python. In addition to that, I made
+                    predictions, built models, and tested them for the dataset at hand. So started
+                    analyzing the data by checking the data type of each input variable is right, and if
+                    not, correct them. Then, I checked for any missing values, meaning getting rid of
+                    the empty spaces (the NaN values). After cleaning the data, I made graphs to gain
+                    more insight. Finally, I used the one-hot-encoding to improve the prediction and
+                    classification of my analysis, split and tested the data to get more understanding
+                    and started training them for the models. These are the models used in this project:
+                    Logistic project Regression, Support Vector Machine, K Nearest Neighbors, Decision
+                    Trees, Random Forests. And finally, choose the best model by analyzing the accuracy,
+                    precision, recall, and F-1 score. However, the goal of this project was to find out
+                    which types of customers are less likely to end the service.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://colab.research.google.com/drive/17_nk_THbqxyCWdVJ1kBu8JijKdNyFk6u"
                 >
                   See Live
                 </a>
@@ -134,7 +143,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/TheWizard91/Artificial-intelligence-Project/blob/main/Artificial_Intelligence_Project.ipynb"
                 >
                   Source Code
                 </a>
@@ -142,7 +151,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://github.com/TheWizard91/Artificial-intelligence-Project/blob/main/Artificial_Intelligence_Project.ipynb" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -153,7 +162,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/artificial_intelligence_project_cropped.png"
                     />
                   </div>
                 </a>
@@ -166,21 +175,25 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Statistical Inference Project</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Analyzed data from <a id="KaggleLink"
+                        href="https://www.kaggle.com/sagarsahni3/covid19-world-vaccination-progress">Kaggle</a>
+                    and found the mean, median, variance, and standard deviation (analyzed it) using R.
+                    Project in website version can be found in <a id="hereLink"
+                        href="https://sites.google.com/view/finalprojectofmath327/home">here</a>.
+                    Documentation can be found <a id="hereLink"
+                        href="https://docs.google.com/document/d/1k8tQU8-lCBa81zN1MuiLKokv3qSlp0iy/edit?dls=true">here</a>.
+                    It explains how I analyzed and cleaned the dataset to gain insights, observations,
+                    and findings. Also, it shows graphs and how I trained the linear model.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://sites.google.com/view/finalprojectofmath327/home"
                 >
                   See Live
                 </a>
@@ -188,7 +201,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://docs.google.com/document/d/1k8tQU8-lCBa81zN1MuiLKokv3qSlp0iy/edit?dls=true"
                 >
                   Source Code
                 </a>
@@ -207,7 +220,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/statisticalinferenceprojetimage.jpg"
                     />
                   </div>
                 </a>
@@ -220,21 +233,21 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">Notebook</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    The app integrates Google Cloud Platform's Firebase infrastructure (Authentication, Firestore Database, Realtime Db, and Storage). 
+                    So the user can create, update an account and make some posts, and it is all stored in the database to which I have access (can show at request). 
+                    So I used HTML, CSS, and ReactJS for the front-end. 
+                    n addition, SemanticUI and Bootstraps enrich the user experience through sharp UI design, animations, etc.
+                    Then, Media Queries scales the web app depending on the user's screen running the application.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://thewizard91.github.io/notebook"
                 >
                   See Live
                 </a>
@@ -242,7 +255,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://codesandbox.io/p/github/TheWizard91/notebook/tree/gh-pages?file=%2Fsrc%2Fcomponents%2FForgotPassword.js"
                 >
                   Source Code
                 </a>
@@ -250,7 +263,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://codesandbox.io/p/github/TheWizard91/notebook/tree/gh-pages?file=%2Fsrc%2Fcomponents%2FForgotPassword.js" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -261,7 +274,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="assets/notebook_image.png"
                     />
                   </div>
                 </a>
@@ -279,13 +292,13 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <p class="contact-wrapper__text">Get in touch!</p>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href=mailto:emmasnuelcodes91@gmail.com"
+            > E-mail Me </a
           >
         </div>
       </div>
@@ -298,16 +311,10 @@
         <a rel="noreferrer" href="#top" class="back-to-top">
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
-        <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-twitter fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-linkedin fa-inverse"></i>
-          </a>
-          <a rel="noreferrer" href="#!" target="_blank">
-            <i class="fa fa-github fa-inverse"></i>
-          </a>
+        <div class="social-links"> <a rel="noreferrer"
+          href="https://www.linkedin.com/in/emmanuel-kofi-agyapong-783807bb/" target="_blank"> <i
+              class="fa fa-inverse fa-linkedin"></i> </a> <a rel="noreferrer"
+          href="https://github.com/TheWizard91" target="_blank"> <i class="fa fa-github fa-inverse"></i> </a>
         </div>
 
         <hr />
@@ -319,34 +326,8 @@
             >Jacobo Martínez</a
           >
         </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
       </div>
     </footer>
-    <!-- /END Footer Section -->
-
     <script defer type="module" src="index.js"></script>
   </body>
 </html>
